@@ -44,6 +44,7 @@ data.forEach(function (item) {
             color: 'white'
         }
     });
+
     var modifier = new Modifier({
         size: [1, 1],
         align: [0.5, 0.5],
@@ -72,5 +73,5 @@ data.forEach(function (item) {
     modifier.alignFrom(alignState);
     alignState.set(item.position, transition);
 
-})
+});
 
