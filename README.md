@@ -1,7 +1,7 @@
 #Browserify-Famous-Experiment
-> Project structure based on the Browserify and Famo.us starter
+> Project structure based on the [Browserify and Famo.us seed](https://github.com/Famous/browserify-seed)
 
-View demo http://danemacaulay.github.io/browserify-famous-experiment/
+View [demo](http://danemacaulay.github.io/browserify-famous-experiment/)
 
 ###Installation
 
