@@ -7,7 +7,6 @@ View demo http://danemacaulay.github.io/browserify-famous-experiment/
 
 ```bash
 npm install -g browserify watchify serve
-git clone https://github.com/Famous/browserify-seed
 npm install
 ```
 
