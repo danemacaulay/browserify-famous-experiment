@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm run lint -s",
     "build": "browserify src/index.js -t cssify -t brfs -o static/bundle.js",
-    "start": "serve static > /dev/null && watchify src/index.js -t cssify -t brfs -o static/bundle.js --debug --verbose",
+    "start": "watchify src/index.js -t cssify -t brfs -o static/bundle.js --debug --verbose",
     "lint-eslint": "eslint src/",
     "lint-jscs": "jscs src/",
     "lint": "npm run lint-eslint && npm run lint-jscs"

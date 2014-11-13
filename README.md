@@ -1,27 +1,20 @@
-#Browserify-Seed
-> A seed project to get started with Browserify and Famo.us
+#Browserify-Famous-Experiment
+> Uses the Browserify and Famo.us starter
 
-[![Build Status](https://travis-ci.org/Famous/browserify-seed.svg?branch=master)](https://travis-ci.org/Famous/browserify-seed)  [![Dependency Status](https://david-dm.org/famous/browserify-seed.svg)](https://david-dm.org/famous/browserify-seed) [![devDependency Status](https://david-dm.org/famous/browserify-seed/dev-status.svg)](https://david-dm.org/famous/browserify-seed#info=devDependencies)
-
+view demo http://danemacaulay.github.io/browserify-famous-experiment/
 ---
 
 ###Installation
 
 ```bash
-npm install -g browserify watchify # first install browserify and watchify
+npm install -g browserify watchify serve# first install browserify and watchify
 git clone https://github.com/Famous/browserify-seed
-# rm -rf .git # optionally remove git history
 npm install # install dependencies
 ```
 
 ---
 
 ###Development
-Run the dev server with ```npm run-script watch```
+Run the dev server via serve module with ```serve static```
 
-Run the linters with ```npm test```
-
----
-
-###Production
-Build the deployable static assets with ```npm run-script build```
+Run the browserify watch with ```npm start```
