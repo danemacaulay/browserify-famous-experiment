@@ -12,6 +12,6 @@ npm install
 
 ###Development
 
-Run the dev server via serve module with ```serve static```
+Run the dev server via serve with ```serve static```
 
-Run the browserify watch with ```npm start```
+Build with browserify ``npm build`` then watch with ``npm start``
